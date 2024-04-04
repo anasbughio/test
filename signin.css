@@ -1,0 +1,46 @@
+.input_fields {
+    background-color: transparent;
+    border: 1px solid royalblue ;
+
+    width: 350px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+  }
+
+  #signin_logo{
+    width: 5%;
+    height: auto;
+    float: left;
+    border-radius: 100%;
+  }
+
+@media only screen and (max-width:991px) {
+  #signin_logo{
+    width: 10%;  
+  }
+  #signin_btn{
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width:575px) {
+  #signin_logo{
+    margin-left: 40px;
+  }
+  #signin_btn{
+    position: relative;
+    right: 40px;
+  }
+}
+@media only screen and (max-width:427px) {
+  #signin_logo{
+    width: 13%;
+    
+  }
+  #signin_btn{
+   height: 40px;
+  }
+}

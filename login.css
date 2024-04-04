@@ -1,0 +1,62 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+#loginhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+
+}
+
+#loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#log_div{
+    width: 400px;
+}
+
+.input_class{
+    width: 400px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+.input_class2{
+    width: 150px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+.input_class3{
+    width: 150px;
+    float: right;
+    
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 20px;
+}
+.login_submit{
+    background-color: white;
+    color: black;
+}
